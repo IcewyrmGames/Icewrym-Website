@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="row">
+  <article class="col-md-8">
+    {% for post in site.posts | limit: 10 %}
+    <section class="panel panel-default">
+      <div class="panel-heading">
+        <a class="lead" href="{{ post.url }}">{{ post.title }}</a>
+        <p class="small" style="margin-bottom: 0"><time>{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • {{ post.author }}{% endif %}</p>
+      </div>
+      <div class="panel-body">{{ post.excerpt }}</div>
+    </section>
+    {% endfor %}
+  </article>
+  <nav class="col-md-4">
+    {% include blog-sidebar.html %}
+  </nav>
+</div>

@@ -1,0 +1,11 @@
+- name: Descent
+  banner_image: GameBanner.png
+  thumb_image: GameThumbnail.png
+
+- name: Climb
+  banner_image: GameBanner.png
+  thumb_image: GameThumbnail.png
+
+- name: Occultus
+  banner_image: GameBanner.png
+  thumb_image: GameThumbnail.png

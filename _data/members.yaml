@@ -1,0 +1,29 @@
+- name: Calli Rabe
+  image: MemberPhoto.png
+  title: Project Lead/Writer
+  email: calli@icewyrmgames.com
+  bio: no description.
+
+- name: Justin Bool
+  image: MemberPhoto.png
+  title: Lead Programmer
+  email: justin@icewyrmgames.com
+  bio: no description.
+
+- name: Nancy Leigh
+  image: MemberPhoto.png
+  title: Producer/Programmer
+  email: nancy@icewyrmgames.com
+  bio: no description.
+
+- name: Kyra Sherwood
+  image: MemberPhoto.png
+  title: Lead Writer
+  email: kyra@icewyrmgames.com
+  bio: no description.
+
+- name: Aura Mael
+  image: MemberPhoto.png
+  title: Lead Artist
+  email: aura@icewyrmgames.com
+  bio: no description.

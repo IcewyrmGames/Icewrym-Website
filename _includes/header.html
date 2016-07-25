@@ -1,0 +1,27 @@
+<header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- header object -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#page-navigation" aria-expanded="false">
+            <!-- for screen readers -->
+            <span class="sr-only">Toggle navigation</span>
+            <!-- draws a menu icon with three lines -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/{{ site.baseurl }}">{{ site.title }}</a>
+        </div>
+
+        <!-- collapseable navbar menu items -->
+        <div class="collapse navbar-collapse" id="page-navigation">
+          <ul class="nav navbar-nav">
+            {% for site_page in site.pages %}{% if site_page.title %}
+            <li{% if page.url == site_page.url %} class="active" {% endif %}><a href="{{ site_page.url }}">{{ site_page.title }}</a></li>
+            {% endif %}{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
